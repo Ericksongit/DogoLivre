@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/editarPerfil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    tools:context=".activity.EditarPerfilActivity">
+
+    <Button
+        android:id="@+id/buttonSalvarAlteracoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Salvar alterações"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editEmailPerfil"
+        tools:ignore="HardcodedText" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageEditarPerfil"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/imagem_perfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textAlterarNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alterar foto"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageEditarPerfil"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/imageEditarPerfil"
+        app:layout_constraintTop_toBottomOf="@+id/imageEditarPerfil"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editNomePerfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_perfil_preto_24dp"
+        android:drawableTint="@android:color/darker_gray"
+        android:hint="Nome Usuario"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAlterarNome"
+        android:importantForAutofill="no"
+        tools:ignore="HardcodedText,RtlHardcoded,UnusedAttribute" />
+
+    <EditText
+        android:id="@+id/editEmailPerfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/ic_emai_pretol_24"
+        android:drawableTint="@android:color/darker_gray"
+        android:hint="Email"
+        android:inputType="textWebEmailAddress"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNomePerfil"
+        android:importantForAutofill="no"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/feedFragment">
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.example.dogolivre.fragment.FeedFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_feed" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.dogolivre.fragment.PerfilFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/pesquisaFragment"
+        android:name="com.example.dogolivre.fragment.PesquisaFragment"
+        android:label="Pesquisa"
+        tools:layout="@layout/fragment_pesquisa" />
+    <fragment
+        android:id="@+id/postagemFragment"
+        android:name="com.example.dogolivre.fragment.PostagemFragment"
+        android:label="Posts"
+        tools:layout="@layout/fragment_postagem" />
+</navigation>

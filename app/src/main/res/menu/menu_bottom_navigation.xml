@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <item android:id="@+id/feedFragment"
+        android:icon="@drawable/ic_home_preto_24dp"
+        android:title="Home"/>
+    <item android:id="@+id/pesquisaFragment"
+        android:icon="@drawable/ic_pesquisa_preto_24dp"
+        android:title="Pesquisa"/>
+    <item android:id="@+id/postagemFragment"
+        android:icon="@drawable/ic_camera_preto_24dp"
+        android:title="Postagem"/>
+    <item android:id="@+id/perfilFragment"
+        android:icon="@drawable/ic_perfil_preto_24dp"
+        android:title="Perfil"/>
+
+
+
+
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "92355181517",
+    "project_id": "dogolivre",
+    "storage_bucket": "dogolivre.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92355181517:android:f0c575712f4591765c6284",
+        "android_client_info": {
+          "package_name": "com.example.dogolivre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92355181517-ojm8hnged1j64jr9hjdetc3e746udlla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHB6FCbhkDVcJcEyzJP08loEa1Y0v7-8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92355181517-ojm8hnged1j64jr9hjdetc3e746udlla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
